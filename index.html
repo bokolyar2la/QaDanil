@@ -155,59 +155,63 @@
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
+<!-- CONTACT -->
+<section class="contact py-5" id="contact">
+  <div class="container">
+    <div class="row">
 
-          <div class="col-lg-5 mr-lg-5 col-12">
-            <div class="google-map w-100">
-              <!-- Ваша Google Карта здесь -->
+      <div class="col-lg-5 mr-lg-5 col-12">
+        <div class="google-map w-100">
+          <!-- Ваша Google Карта здесь -->
+        </div>
+
+        <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+            <div class="contact-info-item">
+              <h3 class="mb-3 text-white">Contact Me</h3>
+              <p class="footer-text mb-0">(918) 618 - 2235</p>
+              <p><a href="mailto:bokolyar2la@gmail.com">bokolyar2la@gmail.com</a></p>
             </div>
 
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Contact Me</h3>
-                  <p class="footer-text mb-0">(918) 618 - 2235</p>
-                  <p><a href="mailto:bokolyar2la@gmail.com">bokolyar2la@gmail.com</a></p>
-                </div>
+            <ul class="social-links">
+                 <li><a href="#" class="uil uil-linkedin" data-toggle="tooltip" data-placement="left" title="LinkedIn"></a></li>
+                 <li><a href="#" class="uil uil-github" data-toggle="tooltip" data-placement="left" title="GitHub"></a></li>
+            </ul>
+        </div>
+      </div>
 
-                <ul class="social-links">
-                     <li><a href="#" class="uil uil-linkedin" data-toggle="tooltip" data-placement="left" title="LinkedIn"></a></li>
-                     <li><a href="#" class="uil uil-github" data-toggle="tooltip" data-placement="left" title="GitHub"></a></li>
-                </ul>
+      <div class="col-lg-6 col-12">
+        <div class="contact-form">
+          <h2 class="mb-4">Get in Touch</h2>
+
+          <!-- Вот ваша форма -->
+          <form action="process_form.php" method="post">
+            <div class="row">
+              <div class="col-lg-6 col-12">
+                <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
+              </div>
+
+              <div class="col-lg-6 col-12">
+                <input type="email" class="form-control" name="email" placeholder="Email" id="email" required>
+              </div>
+
+              <div class="col-12">
+                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
+              </div>
+
+              <div class="ml-lg-auto col-lg-5 col-12">
+                <input type="submit" class="form-control submit-btn" value="Send Message">
+              </div>
             </div>
-          </div>
-
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Get in Touch</h2>
-
-              <form action="" method="get">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name">
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email">
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send Message">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
+          </form>
+          <!-- Конец вашей формы -->
 
         </div>
       </div>
-    </section>
+
+    </div>
+  </div>
+</section>
+
 
     <!-- FOOTER -->
      <footer class="footer py-5">
